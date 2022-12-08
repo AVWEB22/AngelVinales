@@ -60,6 +60,33 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Edge Dividers */
+
+.bloc-shape-divider{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	left:0;
+	right:0;
+	z-index: 0;
+	display: flex;
+	pointer-events: none;
+}
+.svg-divider{
+	width:100%;
+	height:100px;
+	fill:#000000;
+}
+.bloc-divider-top{
+	top:-1px;
+	align-items: flex-start;
+}
+.bloc-divider-bottom{
+	bottom:-1px;
+	align-items: flex-end;
+}
+
+
 /* Bloc Mask */
 
 .bloc-bg-mask{
@@ -81,6 +108,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 	height: 100%;
 	fill-rule: evenodd;
 	fill:#000000;
+}
+
+
+/* Flip Edge Divider */
+
+.bloc-divider-flip-x svg{
+	transform:scale(-1,1);
+}
+.bloc-divider-flip-y svg{
+	transform:scale(1,-1);
+}
+.bloc-divider-flip-x.bloc-divider-flip-y svg{
+	transform:scale(-1,-1);
 }
 
 
@@ -298,6 +338,14 @@ button{
 	outline: none!important;
 }
 
+.btn-rd{
+	border-radius: 40px;
+}
+.btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
+	background:none;
+	box-shadow: none;
+	padding:0;
+}
 .a-block{
 	width:100%;
 	text-align:left;
@@ -305,6 +353,9 @@ button{
 }
 .text-center .a-block{
 	text-align:center;
+}
+.icon-spacer{
+	margin-right:5px;
 }
 
 
@@ -728,6 +779,7 @@ url("img/techno%20background%20online.webp") 2x);
 	}
 	.p-hero-style{
 		font-size:20px;
+		line-height:30px;
 	}
 	.btn-hero-style{
 		border-radius:21px 21px 21px 21px;
@@ -735,13 +787,13 @@ url("img/techno%20background%20online.webp") 2x);
 		padding-bottom:0px;
 	}
 	.img-style{
-		width:178px;
+		width:264px;
 	}
 	.h2-style{
 		font-size:16px;
 	}
 	.brand-image{
-		width:115px;
+		width:180px;
 	}
 	.h2-portfolio-style{
 		font-size:25px;
@@ -753,16 +805,16 @@ url("img/techno%20background%20online.webp") 2x);
 		font-size:25px;
 	}
 	.p-8-style{
-		font-size:6px;
+		font-size:20px;
 	}
 	.h3-style{
-		font-size:16px;
+		font-size:25px;
 	}
 	.h3-stories-style{
-		font-size:16px;
+		font-size:25px;
 	}
 	.p-9-style{
-		font-size:6px;
+		font-size:20px;
 	}
 	.link-style{
 		padding-top:0px;
@@ -794,6 +846,37 @@ url("img/techno%20background%20online.webp") 2x);
 	}
 	.p-5-style{
 		font-size:20px;
+	}
+	.btn-contact-angel-style{
+		width:46.62%;
+	}
+	.bloc-fill{
+		fill:rgba(0,0,0,0.65);
+	}
+	.bloc-divider-t-fill{
+		fill:#000000;
+	}
+	.bloc-divider-b-style{
+		height:50px;
+	}
+	.bloc-divider-b-fill{
+		fill:#000000;
+	}
+	.btn-2-style{
+		width:37.37%;
+	}
+	.primary-divider{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.h2-angel’s-resume-style{
+		font-size:25px;
+	}
+	.img-bloc-12-style{
+		width:281px;
+	}
+	.btn-style{
+		width:54.8%;
 	}
 	
 }
