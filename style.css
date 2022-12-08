@@ -55,6 +55,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-md{
 	padding:50px 20px;
 }
+.bloc-sm{
+	padding:20px;
+}
 
 /* = Full Screen Blocs 
 -------------------------------------------------------------- */
@@ -372,9 +375,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-clear{
-	margin:0;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -563,10 +563,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	fill:#000000;
 	height:239px;
 }
-.h1-style{
-	line-height:48px;
-	font-size:40px;
-}
 .img-htmlcss-icon-style{
 	width:154px;
 }
@@ -617,11 +613,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
-.tc-6728{
-	color:var(--swatch-var-White)!important;
-}
 .tc-7376{
 	color:var(--swatch-var-Gray)!important;
+}
+.tc-6728{
+	color:var(--swatch-var-White)!important;
 }
 
 /* Button colour styles */
@@ -816,12 +812,82 @@ url("img/techno%20background%20online.webp") 2x);
 	.page-heading{
 	}
 	.logo-style{
+		font-size:16px;
 	}
 	.hero-sub-heading{
 		font-size:18px;
 	}
 	.hero-fill-mask{
 		fill:rgba(0,0,0,0.80);
+	}
+	.p-hero-style{
+		font-size:6px;
+	}
+	.btn-hero-style{
+		border-radius:21px 21px 21px 21px;
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+	.img-style{
+		width:101px;
+	}
+	.h2-style{
+		font-size:16px;
+	}
+	.brand-image{
+		width:115px;
+	}
+	.h2-portfolio-style{
+		font-size:16px;
+	}
+	.p-style{
+		font-size:6px;
+	}
+	.p-contact-style{
+		font-size:16px;
+	}
+	.p-8-style{
+		font-size:6px;
+	}
+	.h3-style{
+		font-size:16px;
+	}
+	.h3-stories-style{
+		font-size:16px;
+	}
+	.p-9-style{
+		font-size:6px;
+	}
+	.link-style{
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+	.container-div-style{
+		height:132px;
+	}
+	.h3-software-style{
+		font-size:16px;
+	}
+	.p-range-style{
+		font-size:6px;
+	}
+	.h3-design-style{
+		font-size:16px;
+	}
+	.p-3-style{
+		font-size:6px;
+	}
+	.p-4-style{
+		font-size:6px;
+	}
+	.h3-clinical-style{
+		font-size:16px;
+	}
+	.h3-support-style{
+		font-size:16px;
+	}
+	.p-5-style{
+		font-size:6px;
 	}
 	
 }
