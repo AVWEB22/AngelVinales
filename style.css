@@ -644,28 +644,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bg-coffee-shop-bg{
 	background-image:url("img/coffee-shop-bg.jpg");
-	background-image: -webkit-image-set(url("img/coffee-shop-bg.webp") 1x,
-url("img/coffee-shop-bg.webp") 2x);
 }
 .bg-coffee-machine{
 	background-image:url("img/coffee-machine.jpg");
-	background-image: -webkit-image-set(url("img/coffee-machine.webp") 1x,
-url("img/coffee-machine.webp") 2x);
 }
 .bg-coffee-shop-bg{
 	background-image:url("img/coffee-shop-bg.jpg");
-	background-image: -webkit-image-set(url("img/coffee-shop-bg.webp") 1x,
-url("img/coffee-shop-bg.webp") 2x);
 }
 .bg-coffee-machine{
 	background-image:url("img/coffee-machine.jpg");
-	background-image: -webkit-image-set(url("img/coffee-machine.webp") 1x,
-url("img/coffee-machine.webp") 2x);
 }
 .bg-techno-20background-20online{
 	background-image:url("img/techno%20background%20online.png");
-	background-image: -webkit-image-set(url("img/techno%20background%20online.webp") 1x,
-url("img/techno%20background%20online.webp") 2x);
 }
 
 /* = Custom Bric Data
@@ -821,7 +811,7 @@ url("img/techno%20background%20online.webp") 2x);
 		fill:rgba(0,0,0,0.80);
 	}
 	.p-hero-style{
-		font-size:6px;
+		font-size:10px;
 	}
 	.btn-hero-style{
 		border-radius:21px 21px 21px 21px;
